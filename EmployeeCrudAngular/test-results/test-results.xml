@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome Headless 128.0.0.0 (Linux x86_64)" package="" timestamp="2024-09-15T15:21:06" id="0" hostname="cetti-asus" tests="10" errors="0" failures="0" time="0.108">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36"/>
+  </properties>
+  <testcase name="EmployeeComponent should create" time="0.058" classname="EmployeeComponent"/>
+  <testcase name="AddemployeeComponent should not display errors for valid name" time="0.014" classname="AddemployeeComponent"/>
+  <testcase name="AddemployeeComponent should display error if name is empty" time="0.006" classname="AddemployeeComponent"/>
+  <testcase name="AddemployeeComponent should display error if name is less than 2 characters" time="0.004" classname="AddemployeeComponent"/>
+  <testcase name="AddemployeeComponent should display error if name is just spaces" time="0.004" classname="AddemployeeComponent"/>
+  <testcase name="AddemployeeComponent should display error if name contains numbers" time="0.004" classname="AddemployeeComponent"/>
+  <testcase name="AddemployeeComponent should display error if name exceeds 100 characters" time="0.004" classname="AddemployeeComponent"/>
+  <testcase name="AddemployeeComponent should create" time="0.003" classname="AddemployeeComponent"/>
+  <testcase name="AppComponent should render title" time="0.007" classname="AppComponent"/>
+  <testcase name="EmployeeService should retrieve all employees" time="0.004" classname="EmployeeService"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
